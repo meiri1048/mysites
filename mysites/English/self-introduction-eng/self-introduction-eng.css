@@ -1,0 +1,293 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+
+    background-color:white;
+    height: 113px;
+    color: black;
+
+    position: fixed;
+    width: 100%;
+
+    top: 0;
+    right: 0;
+}
+
+h1 {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+
+    color:black;
+    float: left;
+    background-color: white;
+
+    margin-left: 50px;
+}
+
+h1 a {
+
+    background-color: white;
+    color: black;
+    display: block;
+
+    text-decoration: none;
+
+}
+
+nav {
+
+    background-color: white;
+  
+    position: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    font-family: impact;
+    font-weight: lighter;
+    text-transform: uppercase;
+
+    margin-top: 40px;
+    margin-left: 10px;
+
+}
+
+li {
+    background-color: white;
+    list-style: none;
+    display: inline;
+
+    margin: 10px 10px;
+
+}
+
+li a { 
+    background-color: white;
+    color: black;
+    display: block;
+    
+    text-align: center;
+    text-decoration: none;
+    
+    float: left;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+li a:hover {
+
+    font-weight: bold;
+
+    color: #999999;
+
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main {
+
+    margin-top: 150px;
+    margin-left: 150px;
+
+}
+
+.catchcopies span {
+
+    font-family: impact;
+    font-size: 50px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.interval {
+
+    margin-left: 500px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+    display: fixed;
+
+}
+
+.interval span {
+
+    font-family: impact;
+    font-style: italic;
+    font-size: 100px;
+
+    background-color: #e5f509;
+    color: #2554f0;
+
+}
+
+
+.self-introduction { 
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 190px;
+
+}
+
+.self-introduction a {
+
+    font-family: impact;
+    font-size: 25px;
+
+    color: black;
+
+}
+
+.self-introduction span {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+
+    color: black;
+
+}
+
+.self-introduction a:hover {
+
+    font-family: impact;
+    font-size: 25px;
+
+    color: red;
+}
+
+.interval-2 {
+
+    margin-left: 50px;
+    margin-right: 500px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+    display: fixed;
+
+}
+
+.interval-2 span {
+
+    font-family: impact;
+    font-style: italic;
+    font-size: 60px;
+
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+    background-color: #c34ce7;
+    color: #f38831;
+
+}
+
+.comments {
+
+    margin-top: 10px;
+    margin-left: 100px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+    padding: 20px 10px;
+
+    margin-bottom: 20px;
+
+    margin-right: 190px;
+
+    
+    
+}
+
+.comments span {
+
+    font-weight: bold;
+    background: yellow;
+    color: black;
+
+}
+
+.interval-3 {
+
+    margin-left: 500px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+    display: fixed;
+
+}
+
+.interval-3 span {
+
+    font-family: impact;
+    font-style: italic;
+    font-size: 40px;
+
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+    background-color: rgb(231, 93, 42);
+    color: rgba(24, 21, 21, 0.904);
+
+}
+    
+}
+
+footer { 
+
+    height: 15px;
+
+}
+
+.language{
+
+    display: flex;
+    float: right;
+    justify-content: right;
+    flex-direction: row;
+
+}
+
+.language nav a{
+
+
+    padding-right: 30px;
+    margin-bottom: 30px;
+
+    color: black;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+}
+
+.copyright { 
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    size: 15px;
+    color: #141414;
+    text-align: center;
+
+    padding: 40px 0px 40px 0px;
+
+}

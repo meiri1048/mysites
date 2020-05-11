@@ -1,0 +1,156 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+
+    background-color:white;
+    height: 113px;
+    color: black;
+
+    position: fixed;
+    width: 100%;
+
+    top: 0;
+    right: 0;
+}
+
+h1 {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+
+    color:black;
+    float: left;
+    background-color: white;
+
+    margin-left: 50px;
+}
+
+h1 a {
+
+    background-color: white;
+    color: black;
+    display: block;
+
+    text-decoration: none;
+
+}
+
+nav {
+
+    background-color: white;
+  
+    position: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    font-family: impact;
+    font-weight: lighter;
+    text-transform: uppercase;
+
+    margin-top: 40px;
+    margin-left: 10px;
+
+}
+
+li {
+    background-color: white;
+    list-style: none;
+    display: inline;
+
+    margin: 10px 10px;
+
+}
+
+li a { 
+    background-color: white;
+    color: black;
+    display: block;
+    
+    text-align: center;
+    text-decoration: none;
+    
+    float: left;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+li a:hover {
+
+    font-weight: bold;
+
+    color: #999999;
+
+}
+
+.main {
+
+    margin: 20px 150px;
+
+}
+
+.icons {
+
+    margin-top: 320px;
+    margin-bottom: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment {
+
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    margin-left: 160px;
+
+}
+
+footer { 
+
+    height: 15px;
+
+}
+
+.language{
+
+    display: flex;
+    float: right;
+    justify-content: right;
+    flex-direction: row;
+
+}
+
+.language nav a{
+
+
+    padding-right: 30px;
+    margin-bottom: 30px;
+
+    color: black;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+}
+
+.copyright { 
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    size: 15px;
+    color: #141414;
+    text-align: center;
+
+    padding: 40px 0px 40px 0px;
+
+}

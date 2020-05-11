@@ -1,0 +1,286 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+
+    background-color:white;
+    height: 113px;
+    color: black;
+
+    position: fixed;
+    width: 100%;
+
+    top: 0;
+    right: 0;
+}
+
+h1 {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+
+    color:black;
+    float: left;
+    background-color: white;
+
+    margin-left: 50px;
+}
+
+h1 a {
+
+    background-color: white;
+    color: black;
+    display: block;
+
+    text-decoration: none;
+
+}
+
+nav {
+
+    background-color: white;
+  
+    position: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    font-family: impact;
+    font-weight: lighter;
+    text-transform: uppercase;
+
+    margin-top: 40px;
+    margin-left: 10px;
+
+}
+
+li {
+    background-color: white;
+    list-style: none;
+    display: inline;
+
+    margin: 10px 10px;
+
+}
+
+li a { 
+    background-color: white;
+    color: black;
+    display: block;
+    
+    text-align: center;
+    text-decoration: none;
+    
+    float: left;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+li a:hover {
+
+    font-weight: bold;
+
+    color: #999999;
+
+}
+
+.first-picture {
+
+    margin-top: 100px;
+
+    text-align:center;
+
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+
+    margin: 20px 150px;
+
+}
+
+.self-introduction-box{
+
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    display: inline-flex;
+    
+}
+
+.catchcopies span {
+
+    font-family: impact;
+    font-size: 50px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.self-introduction { 
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+
+}
+
+.first-block, .second-block, .third-block {
+
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+.firstofthrid-block, .secondofthird-block {
+
+    width:50%;
+
+}
+
+.secondofthird-block {
+
+    height: 800px;
+
+}
+
+
+.third-block {
+
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    display: inline-flex;
+
+}
+
+.catchcopies a {
+
+    color: black;
+   
+    text-decoration: none;
+
+}
+
+.icons {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment {
+
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    margin-left: 150px;
+
+}
+
+.sns {
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: left;
+    justify-content: left;
+
+}
+
+.snslinks a {
+
+    text-align: center;
+    text-decoration: none;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    color: black;
+    font-size: 30px;
+
+    padding: 5px 5px;
+    margin-top: 50px;
+    
+}
+
+.snslinks a:hover {
+
+    font-weight: bold;
+
+    color: #e5f509;
+
+}
+
+#yourname, #mail{
+
+    width: 300px;
+    height: 20px;
+
+}
+
+#comment {
+
+    width: 300px;
+    height: 350px;
+
+}
+
+.btn-area {
+
+    float: right;
+
+}
+
+.item {
+
+    padding-bottom: 5px;
+
+}
+
+
+.language{
+
+    display: flex;
+    float: right;
+    justify-content: right;
+    flex-direction: row;
+
+}
+
+.language nav a{
+
+
+    padding-right: 30px;
+    margin-bottom: 30px;
+
+    color: black;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+}
+
+.copyright { 
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    size: 15px;
+    color: #141414;
+    text-align: center;
+
+    padding: 40px 0px 40px 0px;
+
+}
+
